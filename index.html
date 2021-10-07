@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Revizorro</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <div class="wrapper">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link">
+                            <img src="./img/Logo.png" alt="#">
+                        </a>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__nav">
+                        <div class="header__nav_menu_container">
+                            <ul class="header__list">
+                                <li class="header__item">
+                                    <a href="" class="header__link">Цены</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="" class="header__link">О нас</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="" class="header__link">Отзывы</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="" class="header__link">Вопросы</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="" class="header__link">Контакты</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="header__nav_contacts_container">
+                            <ul class="header__menu_contacts">
+                                <li class="contact__item">
+                                    <img class="header__menu_img" src="./img/phone.png" alt="#">
+                                    <a href="" id="bold_phone" class="header__link">+375 44 702-33-36</a>
+                                </li>
+                                <li class="contact__item">
+                                    <img class="header__menu_img" src="./img/Sing_in.png" alt="#">
+                                    <a href="" class="header__link">Войти</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="intro">
+            <div class="wrapper">
+                <h1 class="intro__title">Занимайтесь тем, что нравится,<br> а <span
+                        class="intro__title__purpl_color">чистоту доверьте профессионалам</span>
+                </h1>
+                <p class="intro__subtitle">Уборка квартир в Минске</p>
+            </div>
+            <div class="ilustration__block">
+                <img src="./img/illustration.png" alt="#" class="title__ilustration">
+            </div>
+        </section>
+        <div class="menu__content">
+            <div class="wrapper">
+                <div class="menu">
+
+                    <div class="form">
+                        <div class="form__content">
+                            <button id="form_minus_rooms1" class="button__del_bg"><img src="./img/minus.png"
+                                    alt="#"></button>
+                            <div class="form__content__rooms">
+                                <p id="form_rooms1">1-комнатная</p>
+                            </div>
+                            <button id="form_plus_rooms1" class="button__del_bg"><img src="./img/plus.png"
+                                    alt="#"></button>
+                        </div>
+
+                    </div>
+                    <div class="form">
+                        <div class="form__content">
+                            <button id="form_minus_bathrooms1" class="button__del_bg"><img src="./img/minus.png"
+                                    alt="#"></button>
+                            <div class="form__content__rooms">
+                                <p id="form_bathrooms1">1 санузел</p>
+                            </div>
+                            <button id="form_plus_bathrooms1" class="button__del_bg"><img src="./img/plus.png"
+                                    alt="#"></button>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <div class="form__content">
+                            <div class="form__content__rooms">
+                                Тип уборки
+                            </div>
+                            <button class="button__del_bg"><img src="./img/vector.png" alt="#"></button>
+                        </div>
+
+                    </div>
+                    <div class="form button__price1">
+                        <div class="form__content">
+                            <button class="button__calculate_cost">Рассчитать стоимость</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="price">
+            <div class="wrapper">
+                <div class="price__titles">
+                    <div class="price__title__content">
+                        <h1 class="price__title">
+                            Сколько стот уборка квартиры
+                        </h1>
+                    </div>
+                    <div class="price__title__content">
+                        <p class="intro__subtitle">Чем чаще уборка, тем ниже цена</p>
+                    </div>
+                </div>
+
+                <div class="price__menu">
+                    <button id="price__menu_button_active"
+                        class=" price__menu_button_first price__menu_button price_once">Разовая
+                        уборка</button>
+                    <button class="price__menu_button price_once_in_week">Раз в неделю</button>
+                    <button class="price__menu_button price_once_in_2weeks">Раз в две недели</button>
+                    <button id="" class="price__menu_button price__menu_button_last price_once_a_month">Раз в
+                        месяц</button>
+                </div>
+
+                <div class="price__appartments_container">
+                    <div class="price__appartments">
+                        <h1 class="price__appartments_name">Однокомнатная</h1>
+                        <h1 id="price_appartments_price_1rooms" class="price__appartments_price">39 BYN</h1>
+                        <P class="price__appartments_subtitle">В стоимость включена уборка одной комнаты,<br>
+                            кухни, коридора и одного санузла раз в неделю</P>
+                        <button class="price__appartments_order">Заказать</button>
+                    </div>
+                    <div class="price__appartments">
+                        <h1 class="price__appartments_name">Двухкомнатная</h1>
+                        <h1 id="price_appartments_price_2rooms" class="price__appartments_price">53 BYN</h1>
+                        <P class="price__appartments_subtitle">В стоимость включена уборка одной комнаты,<br>
+                            кухни, коридора и одного санузла раз в неделю</P>
+                        <button class="price__appartments_order">Заказать</button>
+                    </div>
+                    <div class="price__appartments">
+                        <h1 class="price__appartments_name">Трехкомнатная</h1>
+                        <h1 id="price_appartments_price_3rooms" class="price__appartments_price">67 BYN</h1>
+                        <P class="price__appartments_subtitle">В стоимость включена уборка одной комнаты,<br>
+                            кухни, коридора и одного санузла раз в неделю</P>
+                        <button class="price__appartments_order">Заказать</button>
+                    </div>
+                </div>
+                <div class="price__appartments_subtitle">
+                    <img src="./img/info.png" alt="">
+                    <p>Все цены на уборку квартир</p>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="description__content">
+            <h1 class="description__title">Что входит в стоимость уборки</h1>
+            <p class="description__subtitle">
+                Наше главное желание — сделать уборку, <br>которая понравится клиенту, поэтому мы делаем <br>полный
+                комплекс работ и немножко больше
+            </p>
+
+            <div class="description__menu_container">
+                <div class="description__menu">
+                    <img class="description__img" src="./img/room.png" alt="">
+                    <div class="description__bullets_container">
+
+                        <h1 class="discription__name">Комнаты</h1>
+                        <div class="description__bullet">Мойка пола и плинтусов</div>
+                        <div class="description__bullet">Уборка пылесосом</div>
+                        <div class="description__bullet">Протирка открытых поверхностей</div>
+                        <div class="description__bullet">Складывание одежды <br>и расстановка вещей</div>
+                        <div class="description__bullet">Заправка постелей или смена <br>постельного белья</div>
+                    </div>
+                    <div class="description__checkprice_link">
+                        <a href="#" class="discription_full_checklist">Полный чек-лист уборки комнат</a>
+                    </div>
+                </div>
+
+
+                <div class="description__menu">
+                    <img class="description__img" src="./img/kitchen.png" alt="">
+                    <div class="description__bullets_container">
+
+                        <h1 class="discription__name">Кухня</h1>
+                        <div class="description__bullet">Мойка пола и плинтусов</div>
+                        <div class="description__bullet">Уборка пылесосом</div>
+                        <div class="description__bullet">Протирка открытых поверхностей</div>
+                        <div class="description__bullet">Чистка раковины и сантехники</div>
+                        <div class="description__bullet">Вынос мусора</div>
+                    </div>
+                    <div class="description__checkprice_link">
+                        <a href="#" class="discription_full_checklist">Полный чек-лист уборки комнат</a>
+                    </div>
+                </div>
+
+                <div class="description__menu">
+                    <img class="description__img" src="./img/hallway.png" alt="">
+                    <div class="description__bullets_container">
+                        <h1 class="discription__name">Прихожая</h1>
+                        <div class="description__bullet">Мойка пола и плинтусов</div>
+                        <div class="description__bullet">Уборка пылесосом</div>
+                        <div class="description__bullet">Протирка открытых поверхностей</div>
+                        <div class="description__bullet">Протирка бытовой техники</div>
+                        <div class="description__bullet">Чистка стеклянных поверхностей</div>
+                    </div>
+                    <div class="description__checkprice_link">
+                        <a href="" class="discription_full_checklist">Полный чек-лист уборки комнат</a>
+                    </div>
+                </div>
+
+                <div class="description__menu">
+                    <img class="description__img" src="./img/bathroom.png" alt="">
+
+                    <div class="description__bullets_container">
+                        <h1 class="discription__name">Санузел</h1>
+                        <div class="description__bullet">Мойка пола и плинтусов</div>
+                        <div class="description__bullet">Уборка пылесосом</div>
+                        <div class="description__bullet">Мойка ванной</div>
+                        <div class="description__bullet">Протирка зеркала</div>
+                        <div class="description__bullet">Чистка раковины и сантехники</div>
+                    </div>
+                    <div class="description__checkprice_link">
+                        <a href="#" class="discription_full_checklist">Полный чек-лист уборки комнат</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="slider">
+            <div class="wrapper">
+                <h1 class="slider__title">
+                    Результаты нашей работы
+                </h1>
+                <div class="reviews__slider">
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_clean_appartments/01.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_clean_appartments/02.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_clean_appartments/03.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_clean_appartments/04.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_clean_appartments/05.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_clean_appartments/06.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_clean_appartments/07.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="best_cleaners">
+            <div class="wrapper">
+                <h1 class="best_cleaners_title">Лучшие клинеры месяца</h1>
+                <p class="best_cleaners_subtitle">Наши клинеры проходят обучение и строгий отбор. <br>Поэтому с вами
+                    работают только профессионалы своего дела</p>
+                <div class="best_cleaners_foto">
+                    <div class="best_cleaners_foto_1">
+                        <img class="best_cleaners_foto_img" src="./img/cleaner1.png" alt="">
+                        <h2 class="cleaner_name">Ольга</h2>
+                        <p class="cleaner_numbers_cleanings">67 уборок</p>
+                        <div class="cleaner_raiting"><img src="./img/rating1.png" alt="#"></div>
+                    </div>
+
+                    <div class="best_cleaners_foto_2">
+                        <img class="best_cleaners_foto_img" src="./img/cleaner2.png" alt="">
+                        <div class="best_cleaners_foto_1">
+                            <h1 class="cleaner_name">Светлана</h1>
+                            <p class="cleaner_numbers_cleanings">83 уборок</p>
+                            <div class="cleaner_raiting"><img src="./img/rating2.png" alt="#"></div>
+                        </div>
+                    </div>
+                    <div class="best_cleaners_foto_1">
+                        <img class="best_cleaners_foto_img" src="./img/cleaner3.png" alt="">
+                        <div class="best_cleaners_foto_1">
+                            <h2 class="cleaner_name">Анастасия</h2>
+                            <p class="cleaner_numbers_cleanings">56 уборок</p>
+                            <div class="cleaner_raiting"><img src="./img/rating3.png" alt="#"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="reviews">
+            <div class="wrapper">
+                <h2 class="reviews__title">Отзывы клиентов</h2>
+                <h3 class="reviews__subtitle">Мы понимаем, что клининг — это больше чем уборка, <br>поэтому нам
+                    важна обратная связь, чтобы исправлять <br>свои ошибки и улучшать сервис</h3>
+                <div class="reviews__slider">
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_rating/01.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_rating/02.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_rating/03.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_rating/04.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_rating/05.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_rating/06.jpg" alt="">
+                    </div>
+                    <div class="reviews__slider_item">
+                        <img src="./img/slider_rating/07.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="reviews_button_review">
+                    <button class="reviews_button_review_btn">Оставить отзыв</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="questions">
+            <div class="wrapper920">
+                <h2 class="questions__title">Часто задаваемые вопросы</h2>
+                <h3 class="questions__subtitle">Если остались вопросы, то звоните <span
+                        class="questions__subtitle_bold_txt">+375 (44) 702-33-36</span> </h3>
+
+                <div id="first_qustion_block" class="question_block">
+                    <div class="questions_title_content">
+                        <p class="question_block_title">Нужно ли быть дома во время уборки?</p>
+                        <button id="question_button_1" class="question_block_title_button"><img
+                                src="./img/plus_purple.png" alt=""></button>
+                    </div>
+                    <h3 id="question_text_1" class="question_block_subtitle">Многие клиенты остаются дома, когда впервые
+                        заказывают
+                        клининг.
+                        Но уже в следующий раз они предпочитают отправиться по делам, оставив ключи клинеру или
+                        заказав
+                        доставку ключей на работу как и в другое удобное место.</h3>
+                </div>
+                <div class="question_block">
+                    <div class="questions_title_content">
+                        <p class="question_block_title">Зависит ли цена от площади квартиры?</p>
+                        <button id="question_button_2" class="question_block_title_button"><img
+                                src="./img/plus_purple.png" alt=""></button>
+                    </div>
+                    <h3 id="question_text_2" class="question_block_subtitle">С 23 апреля 2019 г. базовая стоимость
+                        уборки зависит не только
+                        от количества комнат и санузлов, но и от площади квартиры. Чем больше площадь квартиры, тем
+                        больше времени требуется клинеру на уборку, поэтому цена за <em>уборку квартир в Минске</em> с
+                        увеличенной площадью становится выше. Если площадь квартиры превышает стандартную, то
+                        применяется коэффициент от 1,2 <br> <br> Стандартные размеры квартир: <br> — 1-ком. квартира до
+                        40 м² <br> — 2-ком. квартира до 60 м² <br> — 3-ком. квартира до 75 м² <br>— 4-ком. квартира до
+                        95 м² <br>— 5-ком. квартира до 110 м² <br> <br>Мы всегда идём на встречу нашим клиентам и
+                        конечно же не будем перемерять площадь квартиры и спорить из-за нескольких лишних метров, но
+                        просим учитывать так же степень загрязнения и отнестись с пониманием к этим обстоятельствам.
+                    </h3>
+                </div>
+
+                <div class="question_block">
+                    <div class="questions_title_content">
+                        <p class="question_block_title">Сколько считается санузлов, если ванная и туалет раздельные?</p>
+                        <button id="question_button_3" class="question_block_title_button"><img
+                                src="./img/plus_purple.png" alt=""></button>
+                    </div>
+                    <h3 id="question_text_3" class="question_block_subtitle">В стоимости уборки квартиры мы учитываем
+                        санузел, как объект
+                        состоящий из ванной / душевой кабины и туалета. Поэтому, если у вас раздельный санузел — ванная
+                        комната и отдельный туалет, то при оформлении заказа нужно указать один санузел.</h3>
+                </div>
+
+                <div class="question_block">
+                    <div class="questions_title_content">
+                        <p class="question_block_title">А вдруг что-нибудь пропадёт или клинер сломает?</p>
+                        <button id="question_button_4" class="question_block_title_button"><img
+                                src="./img/plus_purple.png" alt=""></button>
+                    </div>
+                    <h3 id="question_text_4" class="question_block_subtitle">Самое главное — не волноваться. Мы уверены
+                        в своих исполнителях,
+                        но на всякий случай держим собственный страховой резерв, который формируется из отчислений от
+                        стоимости каждой уборки. Мы принципиально отказались сотрудничать со страховыми компаниями,
+                        большинство из которых предлагает безусловную франшизу 500$, и ограниченное возмещение убытков,
+                        что на деле означает покрытие ущерба за счёт нашей компании и неприятное затягивание мизерной
+                        компенсации для клиента. Мы самостоятельно возместим вам ущерб. Параллельно мы будем работать с
+                        клинером — у нас есть все необходимые данные для того, чтобы установить истину.</h3>
+                </div>
+
+                <div class="question_block">
+                    <div class="questions_title_content">
+                        <p class="question_block_title">Можно ли переставить мебель чтобы убрать?</p>
+                        <button id="question_button_5" class="question_block_title_button"><img
+                                src="./img/plus_purple.png" alt=""></button>
+                    </div>
+                    <h3 id="question_text_5" class="question_block_subtitle">К сожалению, нет. Для перестановки мебели и
+                        крупных предметов
+                        необходимы специальные навыки и оборудование, а поскольку у нас работает преимущественно женский
+                        коллектив, то такие работы мы не выполняем.</h3>
+                </div>
+
+                <div class="question_block_container">
+                    <div class="question_block">
+                        <div class="questions_title_content">
+                            <p class="question_block_title">Что входит в стоимость мытья окон?</p>
+                            <button id="question_button_6" class="question_block_title_button"><img
+                                    src="./img/plus_purple.png" alt=""></button>
+                        </div>
+                        <h3 id="question_text_6" class="question_block_subtitle">В стоимость мытья окон входит — мойка
+                            стекла с обоих сторон,
+                            чистка щётками и мытьё рамы, межрамного пространства, откосов и поддокоников. Поэтому
+                            стоимость
+                            мытья окон указывается за одну створку (глухая или открывающаяся). Цена мойки окон зависит
+                            от
+                            сложности загрязнений и объёмов работы, чем больше площадь окна и больше перегородок, тем
+                            больше
+                            требуется времени клинеру на мытьё окна. <br> <br>— створка высотой до 1,5м и шириной до 1м
+                            = 5
+                            руб <br>— увеличенная створка высотой от 1,5м и шириной более 1м = 7,5 руб <br>— панорамное
+                            окно
+                            высотой до 2,7м, шириной до 70см (открывающиеся на всю высоту) = 7,5 руб <br>— панорамное
+                            окно
+                            высотой до 2,7м, шириной до 70см (нижняя часть глухая) = 10 руб<br>— глухое окно с барьером
+                            (решёткой) с внутренней стороны = 5 руб<br>— мансардные окна = от 10 руб<br>—
+                            монтаж-демонтаж
+                            барьера (решётки) = 10 руб<br>— снятие защитной плёнки или скотча = от 2 руб за м/п<br>—
+                            мытьё и
+                            чистка москитных сеток = 5 руб<br>— мытьё и чистка горизонтальных жалюзи = 5 руб<br>—
+                            форточки =
+                            2,5 руб<br>— мытьё сложных окон, сильно загрязнённых, в т.ч. после ремонта рассчитывается с
+                            коэффициентом от 1,5 <br><br>* цены указаны за одну единицу<br>* в деревянных окнах
+                            "советского
+                            образца" считается каждая открывающаяся створка<br>* в холодное время года может быть
+                            применён
+                            повышающий коэффициент</h3>
+                    </div>
+                    <div class="question_block">
+                        <div class="questions_title_content">
+                            <p class="question_block_title">У меня дома питомец, как это влияет на стоимость?</p>
+                            <button id="question_button_7" class="question_block_title_button"><img
+                                    src="./img/plus_purple.png" alt=""></button>
+                        </div>
+                        <h3 id="question_text_7" class="question_block_subtitle">Мы так же как и наши клиенты любим
+                            наших питомцев и хотим,
+                            чтобы
+                            их место обитания было чистым и аккуратным. Но все прекрасно знают, какие сложности может
+                            доставлять шерсть от наших кошечек и собачек или мусор от попугайчиков. Для клинера это
+                            означает
+                            дополнительное время на более частую смену воды и вымывание шерсти с рабочего инвентаря.
+                            Поэтому
+                            при наличии домашних питомцев может применяться повышающий коэффициент от 1,2</h3>
+                    </div>
+                    <div class="question_block">
+                        <div class="questions_title_content">
+                            <p class="question_block_title">Ваши клинеры выносят мусор?</p>
+                            <button id="question_button_8" class="question_block_title_button"><img
+                                    src="./img/plus_purple.png" alt=""></button>
+                        </div>
+                        <h3 id="question_text_8" class="question_block_subtitle">Уборка и вынос мусора входит в
+                            стоимость уборки квартиры из
+                            расчёта: <br><br> - Поддерживающая уборка — один мешок 60 литров <br> - Генеральная уборка —
+                            два
+                            мешка по 60 литров<br>Вынос мусора большего количества оплачивается дополнительно, из
+                            расчёта 1
+                            мешок (до 5кг) = 3 рубля. При этом выносом считается перемещение мусора от квартиры
+                            заказчика до
+                            мусорного контейнера во дворе дома заказчика.</h3>
+                    </div>
+                    <div class="question_block">
+                        <div class="questions_title_content">
+                            <p class="question_block_title">У меня студия / кухня совмещена с комнатой, что указывать
+                                при
+                                заказе?</p>
+                            <button id="question_button_9" class="question_block_title_button"><img
+                                    src="./img/plus_purple.png" alt=""></button>
+                        </div>
+                        <h3 id="question_text_9" class="question_block_subtitle">Уборка кухни отличается от уборки
+                            комнаты, это два разных
+                            комплекса работ, пусть между помещениями и нет стены. Поэтому при оформлении заказа нужно
+                            указывать отдельно комнату и отдельно кухню.</h3>
+                    </div>
+                    <div class="question_block">
+                        <div class="questions_title_content">
+                            <p class="question_block_title">Нужно ли мне выдавать клинеру моющие средства или инвентарь?
+                            </p>
+                            <button id="question_button_10" class="question_block_title_button"><img
+                                    src="./img/plus_purple.png" alt=""></button>
+                        </div>
+                        <h3 id="question_text_10" class="question_block_subtitle">Клинер на заказ приезжает со всем
+                            необходимым — ведро,
+                            швабра,
+                            салфетки, тряпки для очищения поверхностей, губки с абразивной стороной, а также мусорные
+                            пакеты. Чистящие средства — для ванной, стекла, пола и универсальное — мы тоже привозим с
+                            собой.
+                            В отличие от обычной бытовой химии, профессиональные средства не содержат фосфатов и
+                            токсинов.
+                            Они не вызывают аллергию, полностью разлагаются в воде и не вредят окружающей среде.</h3>
+                    </div>
+                    <div class="question_block">
+                        <div class="questions_title_content">
+                            <p class="question_block_title">Моете ли вы внутри кухонных шкафов и техники?</p>
+                            <button id="question_button_11" class="question_block_title_button"><img
+                                    src="./img/plus_purple.png" alt=""></button>
+                        </div>
+                        <h3 id="question_text_11" class="question_block_subtitle">При стандартной уборке мы протираем
+                            кухонные шкафчики и всю
+                            технику снаружи. А так же моем внутри кухонные шкафчики, кухонную технику — духовой шкаф,
+                            микроволновка, холодильник и т.д. Это дополнительные опции, которые Вы можете указать при
+                            оформлении заказа.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question_active_block_container">
+                <button id="showQuestionsContainer" class="question_active_block_container_button"> <span
+                        class="question_active_block_container_txt">Все
+                        вопросы</span></button>
+            </div>
+        </div>
+        </div>
+        <div class="menu__content_lower" id="last_form">
+            <div class="wrapper">
+                <h1 class="last_menu__title">
+                    Заказать уборку квартиры в минске
+                </h1>
+                <div class="menu">
+
+                    <div class="form">
+                        <div class="form__content">
+                            <button id="form_minus_rooms2" class="button__del_bg"><img src="./img/minus.png"
+                                    alt="#"></button>
+                            <div class="form__content__rooms">
+                                <p id="form_rooms2">1-комнатная</p>
+                            </div>
+                            <button id="form_plus_rooms2" class="button__del_bg"><img src="./img/plus.png"
+                                    alt="#"></button>
+                        </div>
+
+                    </div>
+                    <div class="form">
+                        <div class="form__content">
+                            <button id="form_minus_bathrooms2" class="button__del_bg"><img src="./img/minus.png"
+                                    alt="#"></button>
+                            <div class="form__content__rooms">
+                                <p id="form_bathrooms2">1 санузел</p>
+                            </div>
+                            <button id="form_plus_bathrooms2" class="button__del_bg"><img src="./img/plus.png"
+                                    alt="#"></button>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <div class="form__content">
+                            <div class="form__content__rooms">
+                                Тип уборки
+                            </div>
+                            <button class="button__del_bg"><img src="./img/vector.png" alt="#"></button>
+                        </div>
+
+                    </div>
+                    <div class="form button__price1">
+                        <div class="form__content">
+                            <button class="button__calculate_cost">Рассчитать стоимость</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__full_container_upper">
+                <div class="wrapper">
+                    <div class="footer__container_upper">
+                        <div class="footer__container_upper_contacts">
+                            <div class="footer__upper_contacts_logo">
+                                <img src="./img/revizorro_white.png" alt="#">
+                            </div>
+                            <div class="footer__container_upper_contacts_phone_email">
+                                <p class="footer__upper_contacts_txt">+375 44 702-33-36</p>
+                                <p class="footer__upper_contacts_txt">info@revizorro.by</p>
+    
+                            </div>
+                            <div class="footer__container_upper_contacts_social_links media_display_none">
+                                <img src="./img/faceebook_white.png" alt="">
+                                <img src="./img/vk_white.png" alt="">
+                                <img src="./img/telgam_white.png" alt="">
+                                <img src="./img/instagram_white.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="footer__container_upper_About_service">
+                            <p class="footer__upper__title">
+                                О сервисе
+                            </p>
+                            <ul class="footer_upper_list">
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">О нас</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Цены</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Отзывы</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Вопросы</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Контакты</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="footer__container_upper_service">
+                            <p class="footer__upper__title">
+                                Услуги
+                            </p>
+                            <ul class="footer_upper_list">
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Бесплатная уборка квартир</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Поддерживающая уборка квартир</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Генеральная уборка квартир</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Уборка кваритры после ремонта</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Мойка окон</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="footer__container_upper_career">
+                            <p class="footer__upper__title">
+                                Работа
+                            </p>
+                            <ul class="footer_upper_list">
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Стать клинером</a>
+                                </li>
+                                <li class="footer_upper_list">
+                                    <a href="" class="footer_uppet_item_link">Вакансии</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__full_container_lower">
+                <div class="wrapper">
+                    <div class="footer__container_lower_contracts">
+                        <ul class="footer_lower_list">
+                            <li class="footer_lower_item">
+                                <a href="" class="footer_lower_item_link media_display_none">© 2021 revizorro.by</a>
+                            </li>
+                            <li class="footer_lower_item">
+                                <a href="" class="footer_lower_item_link">Публичный договор</a>
+                            </li>
+                            <li class="footer_lower_item">
+                                <a href="" class="footer_lower_item_link">Политика конфидециальности</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/menu_form.js"></script>
+</body>
+
+</html>
