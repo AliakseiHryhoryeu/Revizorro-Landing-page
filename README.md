@@ -4,5 +4,7 @@
 + javascript
 + sliders are done with Slick-Slider - https://kenwheeler.github.io/slick/
 
+___
+i update this project later becouse this is my first landing page and code not good
 
 ![Revizorro-Landing-page](/preview.png)
