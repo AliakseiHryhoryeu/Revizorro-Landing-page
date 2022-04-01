@@ -1,0 +1,87 @@
+.best_cleaners {
+    background: #f5f5ff;
+    padding-bottom: 90px;
+    &__title {
+        padding-top: 90px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        color: #101011;
+    }
+    &__subtitle {
+        padding-top: 25px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+    }
+    &__photo {
+        margin-top: 43px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        &-1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            padding-top: 32px;
+        }
+        &-img {
+            border: 1.5px solid #4b4ee9;
+            border-radius: 90%;
+        }
+    }
+}
+
+.cleaner {
+    &__name {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #101011;
+        padding-top: 25px;
+    }
+    &__numb_cleanings {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #101011;
+        padding-top: 15px;
+    }
+    &__raiting {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .best_cleaners {
+        padding-bottom: 20px;
+        &__title {
+            font-size: 24px;
+            line-height: 25px;
+            padding-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .best_cleaners__photo-1 {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 410px) {
+    .best_cleaners_photo div {
+        margin-bottom: 10px;
+    }
+}

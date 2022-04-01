@@ -1,0 +1,121 @@
+.questions {
+    background: #f5f5ff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.questions__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #101011;
+}
+.questions__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #101011;
+    padding-bottom: 45px;
+}
+.questions__subtitle_bold_txt {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #101011;
+}
+.question_block {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(75, 78, 233, 0.5);
+}
+#first_qustion_block {
+    border-top: 1px solid rgba(75, 78, 233, 0.5);
+}
+.question_block_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #101011;
+    padding-left: 25px;
+}
+.questions_title_content {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.question_block_title_button {
+    margin-left: auto;
+    padding-right: 25px;
+    background: none;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.question_block_subtitle {
+    display: none;
+    padding-top: 20px;
+    padding-left: 25px;
+    max-width: 660px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #101011;
+}
+.question_block_container {
+    display: none;
+}
+.question_block_container2 {
+    transition-duration: 3s;
+    display: block;
+}
+.question_active_block_container {
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.question_active_block_container_button {
+    background: none;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+#first_qustion_block_show {
+    padding-top: 25px;
+    border-bottom: 1px solid rgba(75, 78, 233, 0.6);
+    padding-bottom: 25px;
+}
+.question_active_block_container_txt {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4b4ee9;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(75, 78, 233, 0.6);
+}
+
+@media (max-width: 992px) {
+    .questions {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .questions__title {
+        font-size: 24px;
+        line-height: 25px;
+    }
+}

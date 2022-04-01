@@ -1,0 +1,110 @@
+.description {
+  &__content {
+    background: #f5f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+  &__title {
+    padding-top: 90px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #101011;
+  }
+  &__subtitle {
+    width: 378px;
+    color: #101011;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+  }
+  &__menu {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 22px;
+    height: 420px;
+    width: 261px;
+    background: #ffffff;
+    box-shadow: 0px 6px 20px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    &__container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+  &__img {
+    align-items: center;
+    justify-content: center;
+    max-height: 44px;
+    margin-top: 35px;
+  }
+  &__name {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #101011;
+  }
+  &__bullet {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #5f5f5f;
+    margin: 12px;
+  }
+  &__checklist {
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: #4b4ee9;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    border-bottom: 1px solid #4b4ee9;
+  }
+  &__checkprice {
+    margin-top: auto;
+    padding-bottom: 27px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .description__menu_container {
+    max-width: 840px;
+  }
+}
+@media (max-width: 992px) {
+  .description__title {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description__title {
+    line-height: 25px;
+  }
+}

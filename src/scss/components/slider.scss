@@ -1,0 +1,49 @@
+.slider {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background: #ffffff;
+    max-width: 100%;
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: #101011;
+      }
+  }
+
+
+
+  @media (max-width: 1200px) {
+
+    .slider {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .slider .wrapper .reviews__slider .slick-list .slick-track .slick-slide img {
+      width: 60%;
+      max-height: 400px;
+    }
+  
+  }
+  @media (max-width: 992px) {
+
+    .slider {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  
+    .slider__title {
+      font-size: 24px;
+      line-height: 25px;
+    }
+    .slick-slide img {
+      max-width: 500px;
+    }
+  
+  }
+  
